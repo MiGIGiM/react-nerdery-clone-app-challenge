@@ -10,6 +10,23 @@ import { RadioButton } from '../../components/RadioButton';
 import { StyledButton } from '../../components/Styles/Inputs/Button.styles';
 import { CheckBox } from '../../components/CheckBox';
 import { StyledLink } from '../../components/Styles/Link.Styles';
+import { Dropdown } from '../../components/Dropdown';
+
+const months = [
+    { value: '00', label: 'Month' },
+    { value: '01', label: 'January' },
+    { value: '02', label: 'February' },
+    { value: '03', label: 'March' },
+    { value: '04', label: 'April' },
+    { value: '05', label: 'May' },
+    { value: '06', label: 'June' },
+    { value: '07', label: 'July' },
+    { value: '08', label: 'August' },
+    { value: '09', label: 'September' },
+    { value: '10', label: 'October' },
+    { value: '11', label: 'November' },
+    { value: '12', label: 'December' },
+];
 
 const SignUp: React.FunctionComponent = () => {
     return (
@@ -79,12 +96,10 @@ const SignUp: React.FunctionComponent = () => {
                         </div>
                         <div>
                             <StyledLabel htmlFor="month">Month</StyledLabel>
-                            <StyledInput
-                                id="month"
-                                type="text"
+                            <Dropdown
                                 backgroundColor="transparent"
-                                placeholder="Month"
                                 flexGrow="1"
+                                options={months}
                             />
                         </div>
                         <div>
@@ -129,7 +144,7 @@ const SignUp: React.FunctionComponent = () => {
                 </StyledButton>
                 <StyledLink color="lightgreen">
                     Have an account?
-                    <a href="/sign-in">Login</a>
+                    <a href="/login">Login</a>
                 </StyledLink>
             </StyledSignUp>
         </StyledSignUpContainer>
