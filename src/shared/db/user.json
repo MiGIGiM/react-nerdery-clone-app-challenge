@@ -1,0 +1,27 @@
+[
+    {
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "password": "Password123"
+    },
+    {
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "password": "P@ssw0rd456"
+    },
+    {
+        "name": "David Brown",
+        "email": "david.brown@example.com",
+        "password": "SecurePass789!"
+    },
+    {
+        "name": "Sarah Davis",
+        "email": "sarah.davis@example.com",
+        "password": "mySecretPassword"
+    },
+    {
+        "name": "Michael Wilson",
+        "email": "michael.wilson@example.com",
+        "password": "Passw0rd!"
+    }
+]

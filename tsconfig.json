@@ -2,7 +2,7 @@
     "compilerOptions": {
         "baseUrl": "./src",
         "target": "ESNext",
-        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "lib": ["DOM", "DOM.Iterable", "ESNext", "WebWorker"],
         "module": "ESNext",
         "skipLibCheck": true,
 
@@ -24,7 +24,12 @@
         "strict": true,
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "plugins": [
+            {
+                "name": "@styled/typescript-styled-plugin"
+            }
+        ]
     },
     "include": ["src"],
     "references": [{ "path": "./tsconfig.node.json" }],

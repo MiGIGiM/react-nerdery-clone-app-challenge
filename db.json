@@ -1,0 +1,149 @@
+{
+  "users": [
+    {
+      "email": "olivie123r@mail.com",
+      "password": "$2a$10$4Q8hIJrxtVa2a3P9cV8fDOVILhXsglgkoH0JZPG47pC6VJ9wQ0FAi",
+      "name": "Petter",
+      "birth_date": "1988-12-02",
+      "gender": "Female",
+      "id": 1
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$ECxkCcu3jeawQZyvQuUd5eXis8AxwCy1/E29S6eS09/zBsBkgNrqO",
+      "name": "Jake Griffin",
+      "birth_date": "1988-12-02",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "email": "email@mail.com",
+      "password": "$2a$10$Ptxgr0TVYFDdjmJ0IN0Y6uthDOCHMoZbHIltDUd2FtVCzdqATe55a",
+      "name": "Jonathan Joestar",
+      "birth_date": "1988-12-02",
+      "gender": "Male",
+      "id": 4
+    },
+    {
+      "email": "correo@mail.com",
+      "password": "$2a$10$LCz0jWgLPJ9nDY2afvf4KexKzY8fAM9niEmuw5e4Va6340jIXUmnu",
+      "name": "Juan",
+      "birth_date": "2003-02-12",
+      "gender": "Female",
+      "id": 5
+    },
+    {
+      "email": "asda@mail.com",
+      "password": "$2a$10$udSP2KrCMX.igGp6bWJRaug9wumIGB9Uijh6H50axY/TCpbCiTffG",
+      "name": "Paola",
+      "birth_date": "2003-02-12",
+      "gender": "Male",
+      "id": 6
+    },
+    {
+      "email": "jauncito@mail.com",
+      "password": "$2a$10$uR0N.E7Cemjn347Pl/PpUOpiOVHvfhI6XR9V/hAr2UksHjMYvbpC.",
+      "name": "Junacito",
+      "birth_date": "2004-03-1",
+      "gender": "Non-binary",
+      "id": 7
+    }
+  ],
+  "playlists": [
+    {
+      "name": "Playlist usuario 2",
+      "description": "",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Playlist 2 usuario 2",
+      "description": "",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Playlist 3 usuario 2",
+      "description": "",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "name": "New Playlist",
+      "description": "",
+      "id": 4
+    }
+  ],
+  "tracks": [
+    {
+      "playlistId": 4,
+      "id": "4LRPiXqCikLlN15c3yImP71281",
+      "name": "As It Was",
+      "artist": "Harry Styles",
+      "album": {
+        "name": "As It Was",
+        "image": "https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14"
+      },
+      "duration_ms": 167303,
+      "liked": true
+    },
+    {
+      "playlistId": 4,
+      "id": "2ixkIrn45mNfdLDLHuyfRt3864",
+      "name": "23",
+      "artist": "Chayce Beckham",
+      "album": {
+        "name": "23",
+        "image": "https://i.scdn.co/image/ab67616d0000b2735de6bc066ec7ab42359bde57"
+      },
+      "duration_ms": 228144,
+      "liked": false
+    },
+    {
+      "playlistId": 4,
+      "id": "4PuAqZlL1tkidkuxfDlLbF3537",
+      "name": "23",
+      "artist": "Sam Hunt",
+      "album": {
+        "name": "23",
+        "image": "https://i.scdn.co/image/ab67616d0000b273cf59a62f06c6020a8ed9180b"
+      },
+      "duration_ms": 179720,
+      "liked": false
+    },
+    {
+      "id": "4R59wt5nnhYo88PIu3cUIt",
+      "name": "Olalla",
+      "artist": "Blanco White",
+      "album": {
+        "name": "On the Other Side",
+        "image": "https://i.scdn.co/image/ab67616d0000b273a3f4de426e0339cb7b1ce832"
+      },
+      "duration_ms": 248160,
+      "liked": true
+    },
+    {
+      "id": "2JU0aRNuN3uc5dKDMeVmTq",
+      "name": "Olas del mar",
+      "artist": "Ayudantes para dormir",
+      "album": {
+        "name": "Ayudantes para dormir",
+        "image": "https://i.scdn.co/image/ab67616d0000b27314f7bfbd3e600a526397d781"
+      },
+      "duration_ms": 251652,
+      "liked": true
+    },
+    {
+      "id": "1Tt7zr1yDbKbT8L4jzSZ74",
+      "name": "When I Am Older",
+      "artist": "Various Artists",
+      "album": {
+        "name": "Frozen 2 (Original Motion Picture Soundtrack/Deluxe Edition)",
+        "image": "https://i.scdn.co/image/ab67616d0000b2736ff59d18c018a2845758deed"
+      },
+      "duration_ms": 111452,
+      "liked": true
+    }
+  ]
+}
